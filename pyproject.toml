@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localdev-agent"
+version = "0.1.0"
+description = "Structured local development coding agent extracted from s_full.py"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.37.0",
+    "python-dotenv>=1.0.0",
+]
+
